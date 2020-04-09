@@ -1,0 +1,161 @@
+ul {                                   
+text-align: left;                   
+list-style: none;                  
+}
+ul li {                                 
+font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+display: inline-block;          
+position: relative;                
+padding: 20px 20px;
+background: #00870C;              
+cursor: pointer;
+width: auto;
+}
+ul li:hover {                        
+background: #00870C;             
+color: #fff;                        
+}
+ul li ul {                            
+padding: 0;                       
+position: absolute;              
+top: 48px;                        
+left: -10000px;                 
+width: 150px;                  
+}
+ul li ul li {                        
+background: #00870C;           
+display: block;                 
+color: #fff;                     
+}
+ul li ul li:hover { background: #00870C; } 
+ul li:hover ul {                 
+display: block;                
+left :0px;                        
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #00870C;
+  min-width: 130px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+html{
+	box-sizing: border-box;
+}
+*,*:before, *:after {
+	box-sizing: inherit;
+}
+
+
+body {
+	color: #00870C;
+	margin: 0;
+	padding: 0;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-weight: 300;
+	line-height: 1.5;
+	text-align: center;
+}
+img {
+	width: 300px;
+}
+
+a {
+	color: antiquewhite;
+}
+a:hover {
+	text-decoration: none;
+	color: aqua;
+}
+h1 {
+	font-size: 75px;
+	font-weight: 300;
+	margin: 0;
+	line-height: 1.5;
+	text-align: center;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+h2 {
+	font-size: 30px;
+	font-weight: 300;
+	margin: 0;
+	text-align: center;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	line-height: 2.5;
+	text-align: center;
+	color: #00870C;
+	font-style: italic;
+	text-decoration-line: underline;
+}
+h3 {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-weight: 300;
+	font-style: italic;
+	font-size: 30px;
+	text-decoration-line: underline;
+}
+.content-wrap {
+	width: 1000px;
+	margin: 0 auto;
+	padding: 15px 0;
+}
+
+/* Profile
+------------------*/
+header {
+	background: #85F398;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-style: italic;
+	font-weight: 500;
+	line-height: 2.5;
+	color: #00870C
+}
+
+
+/* Projects
+------------------*/
+.projects {
+	background: #85F398;
+}
+
+
+/* Work Experience
+------------------*/
+.work-experience {
+	background: #85F398;
+	
+}
+.job-item {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	column-gap: 20px;
+}
+
+
+/* Education
+------------------*/
+.education {
+	background: #85F398;
+}
+
+
+/* Contact Info
+------------------*/
+footer {
+	background: #85F398;
+	text-align: center;
+}
